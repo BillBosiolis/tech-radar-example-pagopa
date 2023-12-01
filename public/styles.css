@@ -1,6 +1,26 @@
+:root {
+    --color-gray-dark: #073754;
+    --color-gray-dark-alt: #4f585e;
+    --color-gray-dark-alt2: #434d53;
+    --color-gray-normal: #7f858a;
+    --color-gray-light: #7d878d;
+    --color-gray-light-alt: #adadad;
+    --color-white: #fff;
+    --color-green: #5cb449;
+    --color-orange: #faa03d;
+    --color-blue: #40a7d1;
+    --color-marine: #688190;
+    --color-red: #f1235a;
+    --color-brand: #f59134;
+    --until-sm: 30em;
+    --until-md: 48em;
+    --until-lg: 61.875em;
+    --until-xl: 75em
+}
+
 body {
     background: #173d7a;
-    background: var(--color-blue-dark);
+    background: var(--color-gray-dark);
     box-sizing: border-box;
     font-family: Roboto;
     font-size: 14px;
