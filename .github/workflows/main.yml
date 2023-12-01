@@ -22,7 +22,7 @@ jobs:
           node-version: "lts/*"
           cache: "npm"
       - run: npm ci
-      - run: PUBLIC_URL=/technology-radar npm run build:static
+      - run: PUBLIC_URL=/tech-radar-example-pagopa npm run build:static
       - run: if [ -n "$(git status --porcelain)" ]; then echo 'workspace is dirty after rebuilding' ; git status ; git diff ; exit 1 ; fi
 
       - name: Setup Pages
@@ -40,7 +40,7 @@ jobs:
     needs: build
     environment:
       name: techradar
-      url: https://billbosiolis.github.io/tech-radar-example-pagopa/
+      url: https://billbosiolis.github.io/tech-radar-example-pagopa/index.html
 
     runs-on: ubuntu-latest
 
