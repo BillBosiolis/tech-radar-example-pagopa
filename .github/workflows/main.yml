@@ -40,7 +40,7 @@ jobs:
     needs: build
     environment:
       name: techradar
-      url: https://pagopa.github.io/technology-radar/index.html
+      url: https://billbosiolis.github.io/tech-radar-example-pagopa/index.html
 
     runs-on: ubuntu-latest
 
