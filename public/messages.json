@@ -1,11 +1,11 @@
 {
-  "footerFootnote": "PagoPA mission is to design, build and manage the country's digital services.",
+  "footerFootnote": "This is the footer.",
   "socialLinks": [
     {
-      "href": "https://www.linkedin.com/company/pagopa",
+      "href": "https://www.linkedin.com/in/bill-bosiolis-19753819/",
       "iconName": "linkedIn"
     },
-    { "href": "https://github.com/pagopa", "iconName": "github" }
+    { "href": "https://github.com/BillBosiolis", "iconName": "github" }
   ],
   "pageHelp": {
     "paragraphs": [

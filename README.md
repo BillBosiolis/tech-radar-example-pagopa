@@ -1,4 +1,4 @@
-# PagoPA Technology Radar - Content
+# Technology Radar Example
 
 This is the location of [PagoPA technology radar](https://pagopa.github.io/technology-radar/index.html),
 based on [AOE technology radar](https://github.com/AOEpeople/aoe_technology_radar).
