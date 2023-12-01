@@ -1,7 +1,7 @@
-name: Build Technology Radar
-
 env:
   REACT_APP_RADAR_NAME: "Bill's Tech Radar"
+
+name: Build Technology Radar
 
 on:
   pull_request:
