@@ -20,7 +20,7 @@
 
 body {
     background: #173d7a;
-    background: var(--color-gray-dark);
+    background: var(--color-blue);
     box-sizing: border-box;
     font-family: Roboto;
     font-size: 14px;
