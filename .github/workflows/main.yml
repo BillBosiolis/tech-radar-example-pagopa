@@ -13,8 +13,8 @@ permissions:
   id-token: write
 
 env:
-  REACT_APP_RADAR_NAME: "App Radar Name"
-  APP_TITLE: "App Title"
+  REACT_APP_RADAR_NAME: "App Radar Name 3"
+  APP_TITLE: "App Title 3"
   ACTIONS_STEP_DEBUG: true
   ACTIONS_RUNNER_DEBUG: true
 
@@ -27,10 +27,6 @@ jobs:
         with:
           node-version: "lts/*"
           cache: "npm"
-      - name: Set env variables
-        run: |
-          echo "REACT_APP_RADAR_NAME=${REACT_APP_RADAR_NAME}" >> $GITHUB_ENV
-          echo "APP_TITLE=App Title 2" >> $GITHUB_ENV
       - name: Test env variables
         run: | 
             echo ${{ env.REACT_APP_RADAR_NAME }}
