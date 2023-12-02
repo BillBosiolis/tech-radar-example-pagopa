@@ -18,6 +18,8 @@ env:
 
 jobs:
   build:
+    env:
+      REACT_APP_RADAR_NAME: "Bill's Tech Radar"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
