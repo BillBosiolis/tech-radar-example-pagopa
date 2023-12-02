@@ -9,6 +9,7 @@ on:
 
 env:
   REACT_APP_RADAR_NAME: "Bill's Tech Radar"
+  APP_TITLE: "Bill's Tech Radar"
 
 permissions:
   contents: read
