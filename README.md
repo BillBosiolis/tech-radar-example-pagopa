@@ -1,7 +1,8 @@
 # Technology Radar Example
 
-This is the location of [PagoPA technology radar](https://pagopa.github.io/technology-radar/index.html),
-based on [AOE technology radar](https://github.com/AOEpeople/aoe_technology_radar).
+This is based on the [PagoPA technology radar](https://github.com/pagopa/technology-radar) ([see example here](https://pagopa.github.io/technology-radar/index.html))
+ which is based on [AOE technology radar](https://github.com/AOEpeople/aoe_technology_radar).
+
 
 ## Content Guidelines
 
@@ -29,8 +30,7 @@ tags: [build, frontend]
 | Quadrants | tools, methods-and-patterns, languages-and-frameworks, platforms-and-aoe-services         |
 
 When a pull request is merged into the `main` branch
-the [radar website](https://pagopa.github.io/technology-radar) is automatically updated triggering
-a [GitHub Action](./.github/workflows/main.yml).
+the radar is automatically updated triggering a [GitHub Action](./.github/workflows/main.yml).
 
 ## Local development
 
