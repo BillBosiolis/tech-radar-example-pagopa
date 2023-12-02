@@ -13,15 +13,13 @@ permissions:
   id-token: write
 
 env:
-  REACT_APP_RADAR_NAME: "Bill's Tech Radar"
-  APP_TITLE: "Bill's Tech Radar"
+  REACT_APP_RADAR_NAME: "App Radar Name"
+  APP_TITLE: "App Title"
   ACTIONS_STEP_DEBUG: true
   ACTIONS_RUNNER_DEBUG: true
 
 jobs:
   build:
-    env:
-      REACT_APP_RADAR_NAME: 'Bills Tech Radar'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -32,7 +30,7 @@ jobs:
       - name: Set env variables
         run: |
           echo "REACT_APP_RADAR_NAME=${REACT_APP_RADAR_NAME}" >> $GITHUB_ENV
-          echo "APP_TITLE=Bill's Tech Radar" >> $GITHUB_ENV
+          echo "APP_TITLE=App Title 2" >> $GITHUB_ENV
       - name: Test env variables
         run: | 
             echo ${{ env.REACT_APP_RADAR_NAME }}
