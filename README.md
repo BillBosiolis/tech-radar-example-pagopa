@@ -62,3 +62,6 @@ the [discussion forum on GitHub](https://github.com/pagopa/technology-radar/disc
 ## Fonts
 
 This tech-radar uses the [Roboto](https://fonts.google.com/specimen/Roboto) Google font family.
+
+## Site Logo
+The site logo was created with an SVG free online creator, [svgator](https://app.svgator.com/).

@@ -57,5 +57,5 @@
       }
     ]
   },
-  "dateFormat": "MMMM YYYY"
+  "dateFormat": "YYYY-MM-DD"
 }
