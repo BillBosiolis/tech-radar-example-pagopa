@@ -32,7 +32,11 @@ jobs:
       - name: Set env variables
         run: |
           echo "REACT_APP_RADAR_NAME=${REACT_APP_RADAR_NAME}" >> $GITHUB_ENV
-          echo "APP_TITLE=${APP_TITLE}" >> $GITHUB_ENV
+          echo "APP_TITLE=Bill's Tech Radar" >> $GITHUB_ENV
+      - name: Test env variables
+        run: | 
+            echo ${{ env.REACT_APP_RADAR_NAME }}
+            echo ${{ env.APP_TITLE }}
       - run: npm ci
       - run: PUBLIC_URL=/tech-radar-example-pagopa npm run build:static
       - run: if [ -n "$(git status --porcelain)" ]; then echo 'workspace is dirty after rebuilding' ; git status ; git diff ; exit 1 ; fi
