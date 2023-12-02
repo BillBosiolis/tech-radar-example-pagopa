@@ -58,3 +58,7 @@ npm run generateJson
 
 If you have any questions or suggestions, please use
 the [discussion forum on GitHub](https://github.com/pagopa/technology-radar/discussions).
+
+## Fonts
+
+This tech-radar uses the [Roboto](https://fonts.google.com/specimen/Roboto) Google font family.

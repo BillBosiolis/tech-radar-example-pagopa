@@ -13,8 +13,7 @@ permissions:
   id-token: write
 
 env:
-  REACT_APP_RADAR_NAME: "App Radar Name 3"
-  APP_TITLE: "App Title 3"
+  REACT_APP_RADAR_NAME: "Studio Tech Radar"
   ACTIONS_STEP_DEBUG: true
   ACTIONS_RUNNER_DEBUG: true
 
@@ -30,7 +29,6 @@ jobs:
       - name: Test env variables
         run: | 
             echo ${{ env.REACT_APP_RADAR_NAME }}
-            echo ${{ env.APP_TITLE }}
       - run: npm ci
       - run: PUBLIC_URL=/tech-radar-example-pagopa npm run build:static
       - run: if [ -n "$(git status --porcelain)" ]; then echo 'workspace is dirty after rebuilding' ; git status ; git diff ; exit 1 ; fi
