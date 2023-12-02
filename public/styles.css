@@ -1,11 +1,11 @@
 body {
-    background: #1f437d;
+    background: #0b4264;
+    /*background: var(--color-gray-dark);*/
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
+    font-family: DIN;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     margin: 0;
-    padding: 0;
-    color: #5cb449;
+    padding: 0
 }
