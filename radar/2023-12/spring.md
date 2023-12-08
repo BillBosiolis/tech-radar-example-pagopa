@@ -1,6 +1,6 @@
 ---
 title: "Spring Framework"
-ring: hold
+ring: adopt
 quadrant: "languages-and-frameworks"
 tags: [gdm-server, replay, metadata]
 ---
