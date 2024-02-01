@@ -10,7 +10,7 @@ In order to add new content to the radar,
 please follow these guidelines.
 
 Place new Markdown content inside the `radar` directory,
-one Markdown file for each technology / pattern.
+one Markdown file for each technology/pattern.
 
 Start every `.md` file with a frontmatter header ie.
 
